@@ -102,6 +102,10 @@ h3 { margin: 0; font-size: 1.2rem; line-height: 1.2; }
   border-top: 1px solid var(--line);
 }
 .site-footer > p { max-width: 650px; margin: 0; color: var(--muted); font-size: .88rem; }
+.social-links { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem 1rem; }
+.social-links h2 { width: 100%; font: 700 .8rem/1 var(--body); letter-spacing: .12em; text-transform: uppercase; }
+.social-links a { font-size: .9rem; font-weight: 700; text-underline-offset: .25em; }
+.social-links a:hover { color: var(--muted); }
 
 :focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
 @media (max-width: 850px) {
