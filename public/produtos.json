@@ -43,26 +43,6 @@
       "source": "site-existente"
     },
     {
-      "id": "boxe-003",
-      "name": "Bandagem Maximum Boxe e Muay Thai 3 Metros Preta",
-      "description": "Bandagem de proteção preta para os treinos.",
-      "category": "Bandagens",
-      "image": "https://http2.mlstatic.com/D_Q_NP_2X_734364-MLB105315014354_012026-V.webp",
-      "imageAlt": "Bandagem Maximum preta de 3 metros",
-      "link": "https://meli.la/25qMAbh",
-      "price": null,
-      "oldPrice": null,
-      "legacyPriceText": "R$ 59,90 R$ 49,90",
-      "anchor": null,
-      "marketplaceItemId": null,
-      "availability": "unknown",
-      "checkedAt": null,
-      "rating": null,
-      "sellerReputation": null,
-      "commission": null,
-      "source": "site-existente"
-    },
-    {
       "id": "boxe-004",
       "name": "Luva Infantil Rhino Boxe e Muay Thai 6 oz",
       "description": "Luva preta para treino infantil.",
