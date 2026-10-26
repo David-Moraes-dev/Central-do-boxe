@@ -136,3 +136,12 @@ h3 { margin: 0; font-size: 1.2rem; line-height: 1.2; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+
+/* Filtros de categorias: mantém a paleta e a tipografia existentes. */
+.category-filters { display:flex; flex-wrap:wrap; gap:.65rem; margin:0 0 1rem; }
+.category-filters button { font:700 .9rem var(--body); color:var(--white); background:transparent; border:1px solid var(--line); border-radius:999px; padding:.7rem 1rem; cursor:pointer; }
+.category-filters button:hover { border-color:var(--white); }
+.category-filters button[aria-pressed="true"] { background:var(--white); color:var(--black); border-color:var(--white); }
+.category-filters button:focus-visible { outline:3px solid var(--red); outline-offset:3px; }
+.filter-count { color:var(--muted); font-size:.9rem; margin:0 0 1.25rem; }
+.category-filters[hidden], .filter-count[hidden], .product-card[hidden] { display:none; }
